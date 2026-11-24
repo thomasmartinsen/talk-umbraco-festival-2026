@@ -1,0 +1,17 @@
+{
+  "cyclesUsed": 3,
+  "cycleLimit": 3,
+  "tests": "fail",
+  "staticChecks": "pass",
+  "review": "not_run",
+  "findings": [
+    {
+      "id": "F-001",
+      "owner": "frontend",
+      "kind": "repairable",
+      "requirement": "Reset page on filter change",
+      "evidence": "SIMULATED: browser observed page 6 after filtering",
+      "nextAction": "Reset page to 1 in the filter transition"
+    }
+  ]
+}

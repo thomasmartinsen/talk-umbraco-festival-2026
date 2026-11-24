@@ -1,0 +1,17 @@
+{
+  "cyclesUsed": 1,
+  "cycleLimit": 3,
+  "tests": "fail",
+  "staticChecks": "pass",
+  "review": "not_run",
+  "findings": [
+    {
+      "id": "F-001",
+      "owner": "api",
+      "kind": "repairable",
+      "requirement": "Filter before pagination",
+      "evidence": "SIMULATED: filtered count differs from full match count",
+      "nextAction": "Filter before count and slice"
+    }
+  ]
+}

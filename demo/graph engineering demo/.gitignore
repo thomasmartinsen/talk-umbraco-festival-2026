@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+.DS_Store
+
+.demo-state/
+verification/browser/test-results/
+verification/browser/playwright-report/

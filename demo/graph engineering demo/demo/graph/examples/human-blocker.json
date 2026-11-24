@@ -1,0 +1,17 @@
+{
+  "cyclesUsed": 1,
+  "cycleLimit": 3,
+  "tests": "pass",
+  "staticChecks": "pass",
+  "review": "fail",
+  "findings": [
+    {
+      "id": "F-001",
+      "owner": "human",
+      "kind": "blocker",
+      "requirement": "Public API compatibility",
+      "evidence": "SIMULATED: another consumer requires the original array",
+      "nextAction": "Approve compatibility strategy"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "cyclesUsed": 1,
+  "cycleLimit": 3,
+  "tests": "pass",
+  "staticChecks": "pass",
+  "review": "pass",
+  "findings": []
+}
